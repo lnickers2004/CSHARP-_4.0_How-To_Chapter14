@@ -1,14 +1,24 @@
 ﻿using System;
+using System.Xml.Serialization;
 
 namespace XML_Serialize_Console
 {
 	public class Person
 	{
+
+		//ADDED ATTRIBUTES TO THE PROPERTIES TO CONTROL XML GENERATION
+		//by the XML SERIALIZER
+
 		public string FirstName { get; set; }
+		[XmlIgnore]
 		public char MiddleInitial { get; set; }
+
 		public string LastName { get; set; }
 
+		[XmlElement("DOB")]
 		public DateTime BirthDate { get; set; }
+		
+		[XmlAttribute("GPA")]
 		public double HighschoolGPA { get; set; }
 
 		public Address Address { get; set; }

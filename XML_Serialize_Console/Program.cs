@@ -10,7 +10,7 @@ namespace XML_Serialize_Console
 {
 	class Program
 	{
-		static void Main( string[] args )
+		static void Main( string[] args ) 
 		{
 			Person person = new Person( "Larry" , 'E', "Nickerson",new DateTime(1964,5,12),3.5,
 				new Address("180-43 Farmers Ave.",null,"Bronx",StateAbbreviation.NY,"10434") );
@@ -38,7 +38,7 @@ namespace XML_Serialize_Console
 				Person newPerson = serializer.Deserialize(sr) as Person;
 
 				Console.WriteLine("After deserialize:" + Environment.NewLine+newPerson.ToString());
-			}
+			} 
 		}
 	}
 }
