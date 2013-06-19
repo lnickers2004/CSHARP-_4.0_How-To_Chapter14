@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XML_Serialize_Console", "XM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteXMLFromScratch_Console", "WriteXMLFromScratchConsole\WriteXMLFromScratch_Console.csproj", "{1D30CF6C-8839-4639-9FA5-4D75C9414D13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Read_XMLFile_Using_XmlDocument", "Read_XMLFile_Using_XmlDocument\Read_XMLFile_Using_XmlDocument.csproj", "{02CAC657-B537-49C2-BFD5-B32170865E1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{1D30CF6C-8839-4639-9FA5-4D75C9414D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D30CF6C-8839-4639-9FA5-4D75C9414D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D30CF6C-8839-4639-9FA5-4D75C9414D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02CAC657-B537-49C2-BFD5-B32170865E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CAC657-B537-49C2-BFD5-B32170865E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CAC657-B537-49C2-BFD5-B32170865E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CAC657-B537-49C2-BFD5-B32170865E1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
