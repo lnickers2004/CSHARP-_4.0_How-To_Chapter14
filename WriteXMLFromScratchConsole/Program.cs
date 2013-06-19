@@ -61,7 +61,28 @@ namespace WriteXMLFromScratch_Console
 			#region Write Xml Using XmlWriter
 
 			//alternative method is to use the XmlWriter
+			StringBuilder sb2 = new StringBuilder();
+			using (StringWriter sw =new StringWriter(sb2))
+			{
+				using (XmlTextWriter xtw=new XmlTextWriter(sw))
+				{
+					xtw.Formatting= Formatting.Indented;
 
+					xtw.WriteStartElement("Book");
+						xtw.WriteAttributeString("PublishYear", "2009");
+
+						xtw.WriteStartElement("Title");
+							xtw.WriteString("A book is just a book");
+						xtw.WriteEndElement();
+
+						xtw.WriteStartElement("Author");
+							xtw.WriteString("Bubba Watson");
+						xtw.WriteEndElement();
+
+					xtw.WriteEndElement();
+					Console.WriteLine( sb2.ToString() );
+				}
+			}
 
 			#endregion
 
