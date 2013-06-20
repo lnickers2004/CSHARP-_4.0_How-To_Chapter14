@@ -12,10 +12,11 @@ namespace Validate_An_XML_Document
 	class Program
 	{
 		const string sourceXml =
-		"<Book PublishYear=\"2009\">" +
-		"<Title>Programming, art or engineering?</Title>" +
-		"<Author>LeTigre Woods</Author>" +
-		"</Book>";
+			"<?xml version='1.0'?>" +
+			"<Book PublishYear=\"2009\">" +
+			"<Author>LeTigre Woods</Author>" +
+			"<Title>Programming, art or engineering?</Title>" +
+			"</Book>";
 
 		static void Main( string[] args )
 		{
@@ -29,9 +30,14 @@ namespace Validate_An_XML_Document
 			settings.ValidationEventHandler += settings_ValidationEventHandler;
 
 			using(StringReader reader = new StringReader(sourceXml))
-			using (XmlReader xmlReader = XmlTextReader.Create(reader,settings))
+			using (XmlReader xmlReader = XmlReader.Create(reader,settings))
 			{
-				while (xmlReader.Read()) ;
+				while (xmlReader.Read())
+				{
+					string theName = xmlReader.Name;
+					string theValue = xmlReader.Value;
+
+				}
 			}
 		}
 
