@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadXML_File_with_XmlReader
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validate_An_XML_Document", "Validate_An_XML_Document\Validate_An_XML_Document.csproj", "{C33157E0-4B21-462E-A402-61624CD2DB86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query_XML_Using_XPATH", "Query_XML_Using_XPATH\Query_XML_Using_XPATH.csproj", "{387111E9-A5D5-408F-AA2D-2F1E84F71EAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{C33157E0-4B21-462E-A402-61624CD2DB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C33157E0-4B21-462E-A402-61624CD2DB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C33157E0-4B21-462E-A402-61624CD2DB86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387111E9-A5D5-408F-AA2D-2F1E84F71EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387111E9-A5D5-408F-AA2D-2F1E84F71EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387111E9-A5D5-408F-AA2D-2F1E84F71EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387111E9-A5D5-408F-AA2D-2F1E84F71EAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
