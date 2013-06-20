@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Book>
+  <Title>Les Miserables</Title>
+  <Author>Victor Hugo</Author>
+  <Source Retrieved="2009-02-14T00:00:00">
+    <URL>http://www.gutenberg.org/files/135/135.txt</URL>
+  </Source>
+  <Chapters>
+    <Chapter>My 1st Chapter</Chapter>
+    <Chapter>A Good Idea</Chapter>
+    <Chapter>Golf is awesome</Chapter>
+    <Chapter>Lee Travino is funny</Chapter>
+    <Chapter>Jack was a bit stiff</Chapter>
+    <Chapter>Nobody does it better than he does</Chapter>
+    <Chapter>While we're young</Chapter>
+    <Chapter>Gimme a Break</Chapter>
+    <Chapter>Top golf pays off for me</Chapter>
+    <Chapter>Use it ang go for it</Chapter>
+    <Chapter>Man HE up!</Chapter>
+    <Chapter>Gully is O.B!</Chapter>
+    <Chapter>Hybrids, Irons and Fairway Woods!</Chapter>
+    <Chapter>Short Game awesomeness</Chapter>
+  </Chapters>
+</Book>

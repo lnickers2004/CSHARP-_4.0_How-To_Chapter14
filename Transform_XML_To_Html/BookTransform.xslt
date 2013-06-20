@@ -4,11 +4,11 @@
 						xmlns:msxsl="urn:schemas-microsoft-com:xslt" 
 						exclude-result-prefixes="msxsl">
 	
-    <xsl:output method="xml" indent="yes"/>
+	 <xsl:output method="xml" indent="yes"/>
 
-    <xsl:template match="@* | node()">
-        <xsl:copy>
-            <xsl:apply-templates select="@* | node()"/>
-        </xsl:copy>
-    </xsl:template>
+	 <xsl:template match="@* | node()">
+		  <xsl:copy>
+				<xsl:apply-templates select="@* | node()"/>
+		  </xsl:copy>
+	 </xsl:template>
 </xsl:stylesheet>
